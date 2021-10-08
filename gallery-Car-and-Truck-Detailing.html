@@ -210,16 +210,116 @@
         <div class="container relative flex flex-col justify-between h-full max-w-6xl px-10 mx-auto xl:px-0">
             <h2 class="mb-3 text-3xl font-extrabold leading-none sm:text-4xl lg:text-7xl tracking-wide  text-center">Car and Truck Detailing</h2>
             <h2 class="my-3 mb-10 text-xl font-medium  text-blue-700  text-center">Our Best Work</h2>
-            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NVNGN8JNRZ0RDE48EOL8MMX00P7KT6OCXG4QSZ18.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ITNYJSR0NAONX2VR2992QH5V5LOCC2VDOSHH5TC8.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
+            <div class="flex flex-wrap md:mx-4 md:mb-8 md:flex-row" x-data="{ open:false, activeSlide : 0, slides: [   [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/NJPKV5KZDEK0SYX0BV2UPQIYAJFYKXK2OWY8VHQL.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/JCLTAU0SMLIRG9QHP8QLR81T9RWWFZZK43MD3JTE.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/6QZ9OX25OE470F70S30E9PZK15V6VC2D2WGFNVCX.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/PJGO8B4YL59CS680QPTVAXQXIE1KO3PBZXVCUURQ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/JRZWHP2ZM946KI7OJDTUT8XHJ0TIJZUN3P9DKXSS.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/OCIHZZT9LQX9N1KT7Y98LTFFQDUP2AWMX9B79DZD.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/1JQDSB37G8OBXQMZ1572DP7HI1DH2XV2A4S7XOFW.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/2SEVVR0O3C2HVBTG34EBVMXMACZUTHIAQ2UNA7HQ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CZZWVTQZ0PQEI9L0AM5VH7WBFHCCSGBXHK3P3YRV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/XFHPDA1IZ29P2J0Q9I5D5B6K5GMT55UIZO5ZODHH.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/Q7MZRUIQNTLEVMF87QH5WV5TT26WJXGJ55BGZKRA.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/08N3ORI0HWQVFAKC18O4UA54K31WFDYG4SNWSQBP.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/QX8S7DWEXFKBR43TZYMRVG5KU2B9PKIO6XBRG2M3.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/IWSFNKCD9KPZFV60XEDAHH94HMLBS86JG33ZMTVV.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/ROWU91DMGDFP754T8KEB794RBU2XD0GT2EK5XUGZ.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/DR9TW1OSLM1FLJ9KH7AJFT7YUC6YDWACT73DAOJN.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/KNPGOM1OGABZ8L8ZCRLE6ECKNK62W6GV58PBIFA4.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/71D6KXGKL4Z1RD9UGR4TE1L6U1JNE1IP1L6EEAGO.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/CL7ITM4KJ6A41G0MF4AIOJPM0X7DOHSS9RCVZK57.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/9FC4BTD6Y35X1BQDZAHFTRWNI97MNB1XXX1KRPMA.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/UNRS02ZXL7Q5YR3HW476BPFB2LDZF8UUT1C01S7C.jpeg', 'photo'],    [ 'https://landing-page-app-hero-images.s3.amazonaws.com/media/LDJBR7QK19FQELFFJ11MPNFXZIKSSO5EQVGPR5SJ.jpeg', 'photo'],   ] }" @keydown.escape= "open = false"   >
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NVNGN8JNRZ0RDE48EOL8MMX00P7KT6OCXG4QSZ18.jpeg"  alt = "Photo number 4 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 0; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/NJPKV5KZDEK0SYX0BV2UPQIYAJFYKXK2OWY8VHQL.jpeg"  alt = "Photo number 13 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                                     
                         
                               
-                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ITNYJSR0NAONX2VR2992QH5V5LOCC2VDOSHH5TC8.jpeg"  alt = "Photo number 6 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 1; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JCLTAU0SMLIRG9QHP8QLR81T9RWWFZZK43MD3JTE.jpeg"  alt = "Photo number 27 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 2; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/6QZ9OX25OE470F70S30E9PZK15V6VC2D2WGFNVCX.jpeg"  alt = "Photo number 34 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 3; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/PJGO8B4YL59CS680QPTVAXQXIE1KO3PBZXVCUURQ.jpeg"  alt = "Photo number 39 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 4; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/JRZWHP2ZM946KI7OJDTUT8XHJ0TIJZUN3P9DKXSS.jpeg"  alt = "Photo number 48 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 5; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/OCIHZZT9LQX9N1KT7Y98LTFFQDUP2AWMX9B79DZD.jpeg"  alt = "Photo number 60 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 6; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/1JQDSB37G8OBXQMZ1572DP7HI1DH2XV2A4S7XOFW.jpeg"  alt = "Photo number 61 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 7; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/2SEVVR0O3C2HVBTG34EBVMXMACZUTHIAQ2UNA7HQ.jpeg"  alt = "Photo number 62 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 8; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CZZWVTQZ0PQEI9L0AM5VH7WBFHCCSGBXHK3P3YRV.jpeg"  alt = "Photo number 65 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 9; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/XFHPDA1IZ29P2J0Q9I5D5B6K5GMT55UIZO5ZODHH.jpeg"  alt = "Photo number 66 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 10; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/Q7MZRUIQNTLEVMF87QH5WV5TT26WJXGJ55BGZKRA.jpeg"  alt = "Photo number 67 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 11; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/08N3ORI0HWQVFAKC18O4UA54K31WFDYG4SNWSQBP.jpeg"  alt = "Photo number 68 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 12; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/QX8S7DWEXFKBR43TZYMRVG5KU2B9PKIO6XBRG2M3.jpeg"  alt = "Photo number 69 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 13; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/IWSFNKCD9KPZFV60XEDAHH94HMLBS86JG33ZMTVV.jpeg"  alt = "Photo number 70 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 14; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/ROWU91DMGDFP754T8KEB794RBU2XD0GT2EK5XUGZ.jpeg"  alt = "Photo number 75 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 15; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/DR9TW1OSLM1FLJ9KH7AJFT7YUC6YDWACT73DAOJN.jpeg"  alt = "Photo number 76 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 16; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/KNPGOM1OGABZ8L8ZCRLE6ECKNK62W6GV58PBIFA4.jpeg"  alt = "Photo number 77 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 17; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/71D6KXGKL4Z1RD9UGR4TE1L6U1JNE1IP1L6EEAGO.jpeg"  alt = "Photo number 79 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 18; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/CL7ITM4KJ6A41G0MF4AIOJPM0X7DOHSS9RCVZK57.jpeg"  alt = "Photo number 80 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 19; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/9FC4BTD6Y35X1BQDZAHFTRWNI97MNB1XXX1KRPMA.jpeg"  alt = "Photo number 85 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 20; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/UNRS02ZXL7Q5YR3HW476BPFB2LDZF8UUT1C01S7C.jpeg"  alt = "Photo number 86 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
+                    
+                                    
+                        
+                              
+                        <div class="flex cursor-pointer sm:h-30 md:h-auto md:w-1/3 px-4 mb-8 hover:bg-opacity-40" @click="activeSlide = 21; open = true; " ><img class="rounded shadow-md object-cover w-full h-60" src="https://landing-page-app-hero-images.s3.amazonaws.com/media/LDJBR7QK19FQELFFJ11MPNFXZIKSSO5EQVGPR5SJ.jpeg"  alt = "Photo number 87 of Detail On Demand&#x27;s best work performing a null job"   loading="lazy" ></div>
                     
                  
                                     

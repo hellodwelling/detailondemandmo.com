@@ -11,21 +11,35 @@
     </url>
 
     <url>
-        <loc>https://detailondemandmo.com/services</loc>
-        <lastmod>2022-06-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
-        <loc>https://detailondemandmo.com/testimonials</loc>
-        <lastmod>2022-06-05</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
-
-    <url>
         <loc>https://detailondemandmo.com/store</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/jobs</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/teams</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/reviews</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/gallery-All</loc>
         <lastmod>2022-06-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
@@ -75,6 +89,62 @@
 
     <url>
         <loc>https://detailondemandmo.com/gallery-Ceramic-Coating</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Exterior-Detailing</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Interior-Detailing</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Boat-Detailing</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Maintenance-Wash</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Ceramic-Coating</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Full-Detail-Service</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Decal-Removal</loc>
+        <lastmod>2022-06-05</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+    </url>
+
+    <url>
+        <loc>https://detailondemandmo.com/service-Paint-Correction</loc>
         <lastmod>2022-06-05</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
